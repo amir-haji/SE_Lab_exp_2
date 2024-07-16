@@ -12,8 +12,8 @@ public class OnSiteOrderService implements OrderService {
     }
 
     @Override
-    public void PhoneOrderRegister(String customerName) {
-
+    public void phoneOrderRegister(String customerName) {
+        //Empty Body
     }
 
     @Override
@@ -23,11 +23,11 @@ public class OnSiteOrderService implements OrderService {
 
     @Override
     public void onlineOrderPayment(int foodPrice) {
-        //Empty Body!
+        //Empty Body
     }
 
     @Override
-    public void PhoneOrderPayment(int foodPrice) {
-
+    public void phoneOrderPayment(int foodPrice) {
+        //Empty Body
     }
 }

@@ -12,8 +12,8 @@ public class PhoneOrderService implements OrderService {
     }
 
     @Override
-    public void PhoneOrderRegister(String customerName) {
-
+    public void phoneOrderRegister(String customerName) {
+        System.out.println("phone order registered for " + customerName);
     }
 
     @Override
@@ -27,8 +27,8 @@ public class PhoneOrderService implements OrderService {
     }
 
     @Override
-    public void PhoneOrderPayment(int foodPrice) {
-
+    public void phoneOrderPayment(int foodPrice) {
+        System.out.println("phone Payment with Price : " + foodPrice + " Tomans!");
     }
 
 

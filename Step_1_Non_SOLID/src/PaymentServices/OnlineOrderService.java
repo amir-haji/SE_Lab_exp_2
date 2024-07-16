@@ -12,8 +12,8 @@ public class OnlineOrderService implements OrderService {
     }
 
     @Override
-    public void PhoneOrderRegister(String customerName) {
-
+    public void phoneOrderRegister(String customerName) {
+        //Empty Body
     }
 
     @Override
@@ -27,8 +27,8 @@ public class OnlineOrderService implements OrderService {
     }
 
     @Override
-    public void PhoneOrderPayment(int foodPrice) {
-
+    public void phoneOrderPayment(int foodPrice) {
+        //Empty Body
     }
 
 }
