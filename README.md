@@ -127,7 +127,7 @@
 <p>OnlineOrderService</p>
 </td>
 <td width="141">
-<p>افزودن واسط ورود با موبایل</p>
+<p>افزودن واسط پرداخت با موبایل</p>
 </td>
 <td width="292">
 <p>به کلاس OnlineOrderService تابع phoneOrderPayment جهت پرداخت با موبایل اضافه گردید</p>
@@ -157,7 +157,7 @@
 <p>OnSiteOrderService</p>
 </td>
 <td width="141">
-<p>افزودن واسط ورود با موبایل</p>
+<p>افزودن واسط پرداخت با موبایل</p>
 </td>
 <td width="292">
 <p>به کلاس OnSiteOrderService تابع phoneOrderPayment جهت پرداخت با موبایل اضافه گردید</p>
