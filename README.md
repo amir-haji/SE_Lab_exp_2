@@ -64,62 +64,140 @@
 <p><strong>۱</strong></p>
 </td>
 <td width="198">
-<p>MessageService</p>
+<p>PaymentService</p>
 </td>
 <td width="141">
-<p>افزودن تابع ارسال پیام تلگرامی</p>
+<p>افزودن سفارش با موبایل</p>
 </td>
 <td width="292">
-<p>افزودن یک تابع void با عنوان sendTelegramMessage</p>
+<p>یک کلاس با عنوان PhoneOrderService به بخش PaymentService اضافه شد</p>
 </td>
 </tr>
 
 <tr>
 <td width="64">
-<p><strong>&nbsp;</strong></p>
+<p><strong>۲</strong></p>
 </td>
 <td width="198">
-<p>&nbsp;</p>
+<p>OrderService</p>
 </td>
 <td width="141">
-<p>&nbsp;</p>
+<p>افزودن واسط ورود با موبایل</p>
 </td>
 <td width="292">
-<p>&nbsp;</p>
+<p>به واسط OrderService تابع phoneOrderRegister جهت ورود برای پرداخت با موبایل اضافه گردید</p>
 </td>
 </tr>
+
 <tr>
 <td width="64">
-<p><strong>&nbsp;</strong></p>
+<p><strong>۳</strong></p>
 </td>
 <td width="198">
-<p>&nbsp;</p>
+<p>OrderService</p>
 </td>
 <td width="141">
-<p>&nbsp;</p>
+<p>افزودن واسط پرداخت با موبایل</p>
 </td>
 <td width="292">
-<p>&nbsp;</p>
+<p>به واسط OrderService تابع phoneOrderPayment جهت پرداخت با موبایل اضافه گردید</p>
 </td>
 </tr>
+
 <tr>
 <td width="64">
-<p><strong>&nbsp;</strong></p>
+<p><strong>۴</strong></p>
 </td>
 <td width="198">
-<p>&nbsp;</p>
+<p>OnlineOrderService</p>
 </td>
 <td width="141">
-<p>&nbsp;</p>
+<p>افزودن واسط ورود با موبایل</p>
 </td>
 <td width="292">
-<p>&nbsp;</p>
+<p>به کلاس OnlineOrderService تابع phoneOrderRegister جهت ورود با موبایل اضافه گردید</p>
 </td>
 </tr>
+
+<tr>
+<td width="64">
+<p><strong>۵</strong></p>
+</td>
+<td width="198">
+<p>OnlineOrderService</p>
+</td>
+<td width="141">
+<p>افزودن واسط ورود با موبایل</p>
+</td>
+<td width="292">
+<p>به کلاس OnlineOrderService تابع phoneOrderPayment جهت پرداخت با موبایل اضافه گردید</p>
+</td>
+</tr>
+
+<tr>
+<td width="64">
+<p><strong>۶</strong></p>
+</td>
+<td width="198">
+<p>OnSiteOrderService</p>
+</td>
+<td width="141">
+<p>افزودن واسط ورود با موبایل</p>
+</td>
+<td width="292">
+<p>به کلاس OnSiteOrderService تابع phoneOrderRegister جهت ورود با موبایل اضافه گردید</p>
+</td>
+</tr>
+
+<tr>
+<td width="64">
+<p><strong>۷</strong></p>
+</td>
+<td width="198">
+<p>OnSiteOrderService</p>
+</td>
+<td width="141">
+<p>افزودن واسط ورود با موبایل</p>
+</td>
+<td width="292">
+<p>به کلاس OnSiteOrderService تابع phoneOrderPayment جهت پرداخت با موبایل اضافه گردید</p>
+</td>
+</tr>
+
+<tr>
+<td width="64">
+<p><strong>۸</strong></p>
+</td>
+<td width="198">
+<p>Main</p>
+</td>
+<td width="141">
+<p>انتخاب روش پرداخت با موبایل</p>
+</td>
+<td width="292">
+<p>با افزودن یک else if دیگر به بخش //step2 تعیین گردید که اگر مشتری عدد ۳ را برای روش پرداخت وارد کرد، پرداخت از طریق موبایل برای او در نظر گرفته شودو در اطلاعات سفارش ثبت گردد</p>
+</td>
+</tr>
+
+<tr>
+<td width="64">
+<p><strong>۹</strong></p>
+</td>
+<td width="198">
+<p>Main</p>
+</td>
+<td width="141">
+<p>پرداخت با موبایل</p>
+</td>
+<td width="292">
+<p>در بخش //step3 برای پرداخت یک گزینه else if اضافه گردید که اگر روش پرداخت با موبایل در صورت حساب ذکر شده بود، پرداخت از ؤآن طریق انجام گیرد.</p>
+</td>
+</tr>
+
 </tbody>
 </table>
 
-مجموع تعداد تغییرات: ..............
+مجموع تعداد تغییرات: ۹
 
 ### گام ۲: تحلیل و وارسی برنامه از منظر تحقق و یا عدم تحقق اصول SOLID
 در خصوص این برنامه‌ای که نوشته شده بود و شما یک قابلیت به آن اضافه کردید، بر اساس اصول SOLID موارد نقض و یا محقق شدن هر کدام از آن اصول را بیان کنید. در بیان موارد تحقق و نقض، علت تحقق و یا نقض را نیز به صورت کامل توضیح دهید:
